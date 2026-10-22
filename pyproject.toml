@@ -1,0 +1,15 @@
+
+[project]
+name = "rag-vector"
+version = "0.1.0"
+description = "PDF RAG project using LangChain"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-community",
+    "langchain-openai",
+    "langchain-text-splitters",
+    "pypdf",
+    "python-dotenv",
+    "openai",
+    "chromadb",
+]
